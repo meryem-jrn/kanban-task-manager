@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "username": "mouad",
+      "avatar": "https://ui-avatars.com/api/?name=sara"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Apprendre Redux",
+      "description": "Comprendre reducers, actions et store",
+      "status": "todo",
+      "priority": "high",
+      "userId": 1
+    }
+  ]
+}
