@@ -23,3 +23,9 @@ npm install
 json-server --watch db.json --port 3001
 npm run dev
 
+## Fake Backend
+This project uses JSON Server as a fake REST API for development.
+Run:
+npm run server
+
+
