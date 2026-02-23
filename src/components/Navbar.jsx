@@ -1,6 +1,6 @@
 import { NavLink, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleTheme } from '../store/themeSlice';
+import { toggleTheme } from './redux/themeSlice';
 
 const Navbar = () => {
     const dispatch = useDispatch();

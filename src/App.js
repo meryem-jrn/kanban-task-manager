@@ -2,12 +2,12 @@ import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import Navbar from './components/Navbar';
-import KanbanBoard from './pages/KanbanBoard';
-import NewTask from './pages/NewTask';
-import TaskDetails from './pages/TaskDetails';
-import EditTask from './pages/EditTask';
-import Users from './pages/Users';
-import { loadUsers } from './store/usersSlice';
+import KanbanBoard from './components/pages/KanbanBoard';
+import NewTask from './components/pages/NewTask';
+import TaskDetails from './components/pages/TaskDetails';
+import EditTask from './components/pages/EditTask';
+import Users from './components/pages/Users';
+import { loadUsers } from './components/redux/usersSlice';
 
 function App() {
   const { mode } = useSelector((state) => state.theme);

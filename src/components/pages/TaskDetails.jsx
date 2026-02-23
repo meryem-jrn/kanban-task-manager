@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { loadTaskById, removeTask } from '../store/tasksSlice';
-import { loadUsers } from '../store/usersSlice';
-import { selectTaskById } from '../store/tasksSelectors';
-import { selectUserById } from '../store/usersSelectors';
+import { loadTaskById, removeTask } from '../redux/tasksSlice';
+import { loadUsers } from '../redux/usersSlice';
+import { selectTaskById } from '../redux/tasksSelectors';
+import { selectUserById } from '../redux/usersSelectors';
 
 const STATUS_LABELS = {
     'todo': 'To Do',
