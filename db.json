@@ -1,19 +1,69 @@
 {
-  "users": [
-    {
-      "id": 2,
-      "username": "mouad",
-      "avatar": "https://ui-avatars.com/api/?name=sara"
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "title": "Apprendre Redux",
-      "description": "Comprendre reducers, actions et store",
-      "status": "todo",
-      "priority": "high",
-      "userId": 1
-    }
-  ]
+    "users": [
+        {
+            "id": "1",
+            "username": "sara",
+            "avatar": "https://ui-avatars.com/api/?name=Sara&background=6366f1&color=fff&bold=true"
+        },
+        {
+            "id": "2",
+            "username": "youssef",
+            "avatar": "https://ui-avatars.com/api/?name=Youssef&background=8b5cf6&color=fff&bold=true"
+        },
+        {
+            "id": "3",
+            "username": "amina",
+            "avatar": "https://ui-avatars.com/api/?name=Amina&background=ec4899&color=fff&bold=true"
+        }
+    ],
+    "tasks": [
+        {
+            "id": "1",
+            "title": "Apprendre Redux",
+            "description": "Comprendre reducers, actions et store. Pratiquer avec des exemples concrets.",
+            "status": "todo",
+            "priority": "high",
+            "userId": "1"
+        },
+        {
+            "id": "2",
+            "title": "Configurer JSON Server",
+            "description": "Créer un faux backend pour simuler une API REST complète.",
+            "status": "in-progress",
+            "priority": "medium",
+            "userId": "2"
+        },
+        {
+            "id": "3",
+            "title": "Design UI Kanban",
+            "description": "Créer une interface moderne avec drag & drop et animations fluides.",
+            "status": "in-progress",
+            "priority": "high",
+            "userId": "3"
+        },
+        {
+            "id": "4",
+            "title": "Tests unitaires",
+            "description": "Écrire des tests pour les composants React et les reducers Redux.",
+            "status": "todo",
+            "priority": "low",
+            "userId": "1"
+        },
+        {
+            "id": "5",
+            "title": "Déploiement",
+            "description": "Déployer l'application sur Vercel ou Netlify.",
+            "status": "done",
+            "priority": "medium",
+            "userId": "2"
+        },
+        {
+            "id": "6",
+            "title": "Documentation API",
+            "description": "Rédiger la documentation complète de l'API REST.",
+            "status": "done",
+            "priority": "low",
+            "userId": "3"
+        }
+    ]
 }

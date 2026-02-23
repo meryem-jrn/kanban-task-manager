@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
-import { loadTasks, updateTaskStatus, removeTask } from '../store/tasksSlice';
-import { loadUsers } from '../store/usersSlice';
-import { selectAllTasks, selectTasksLoading } from '../store/tasksSelectors';
-import { selectAllUsers } from '../store/usersSelectors';
+import { loadTasks, updateTaskStatus, removeTask } from '../redux/tasksSlice';
+import { loadUsers } from '../redux/usersSlice';
+import { selectAllTasks, selectTasksLoading } from '../redux/tasksSelectors';
+import { selectAllUsers } from '../redux/usersSelectors';
 
 const COLUMNS = [
     { id: 'todo', label: 'To Do', className: 'col-todo' },
