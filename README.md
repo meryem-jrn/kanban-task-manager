@@ -19,13 +19,12 @@ et de les associer à des utilisateurs.
 ## Installation
 npm install
 
-## Lancement
-json-server --watch db.json --port 3001
-npm run dev
+npm install concurrently --save-dev
+```
 
-## Fake Backend
-This project uses JSON Server as a fake REST API for development.
-Run:
-npm run server
+## Lancer l'application
+Pour démarrer à la fois le **frontend** (React) et le **backend** (json-server), utilisez la commande que j'ai configurée :
+```bash
+npm run dev
 
 
